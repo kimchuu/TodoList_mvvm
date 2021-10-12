@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk 30
-
     buildFeatures {
         dataBinding true
     }
+
+    compileSdk 30
 
     defaultConfig {
         applicationId "com.example.todolist_mvvm"
