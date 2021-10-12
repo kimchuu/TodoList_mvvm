@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoList_mvvm">
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.todo.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

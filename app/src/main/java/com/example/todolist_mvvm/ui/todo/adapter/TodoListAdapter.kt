@@ -1,10 +1,9 @@
-package com.example.todolist_mvvm.ui.main.adapter
+package com.example.todolist_mvvm.ui.todo.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.LayoutRes
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.todolist_mvvm.R
@@ -20,6 +19,13 @@ class TodoListAdapter(val todoItems : ArrayList<TodoModel>) : RecyclerView.Adapt
                 tvTodoTitle.text = TodoItem.title
                 tvTodoDescription.text = TodoItem.description
                 tvTodoCreatedDate.text = TodoItem.createdDate.toString()
+
+                root.setOnClickListener(object :View.OnClickListener{
+                    override fun onClick(v: View?) {
+                        TODO("Not yet implemented")
+                    }
+                })
+
             }
         }
     }
